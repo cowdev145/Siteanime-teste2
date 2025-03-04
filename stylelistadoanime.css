@@ -1,0 +1,40 @@
+#conteiner{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.temporada  {
+    width: 200px;
+    padding-top: 20px;
+}
+.lista-animes{
+    color: white;
+    padding: 10px;
+}
+.lista-animes img{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.lista-animes p{
+    padding-top: 20px;
+    font-size: 0.9em;
+    text-align: justify;
+    line-height: 1.4em;
+
+}
+.lista-animes-episodio img{
+    width: 100px;
+    padding: 10px;
+
+}
+.lista-animes-episodio ul p{
+    color: white;
+    padding-top: 20px;
+   
+
+}
+.lista-animes-episodio ul{
+    display: flex;
+    flex-flow: column nowrap;
+}
+    
