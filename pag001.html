@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animes Online</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="style-mobile.css">
     <link rel="stylesheet" href="stylepagina.css">
     
 
@@ -13,7 +13,12 @@
 <body>
     <header>
         <h1><a href="index.html">Animes Online</a></h1>
-        <menu>
+        <div class="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <nav class="menu">
             <ul>
                 <li><a href="index.html">incio</a></li>
                 <li><a href="lista.html">animes</a></li>
@@ -22,7 +27,7 @@
                 <li><a href="#">tokusatsus</a></li>
                 <li><a href="#">filmes</a></li>
             </ul>
-        </menu>
+        </nav>
 
         <div id="formulario-pesquisa">
             <form action="">
@@ -51,6 +56,6 @@
             Site criado pelo Caradevaca
         </p>
     </footer>
-    
+    <script src="script.js"></script>
 </body>
 </html>
