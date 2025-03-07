@@ -8,12 +8,8 @@ main h1 {
     padding-top: 10px;
     padding-bottom: 20px;
 }
-img {
-    width: 90%;
-    border-radius: 10px;
-    display: block;
-    margin: auto;
-}
+
+
 #video {
     width: 100%;
     position: relative;

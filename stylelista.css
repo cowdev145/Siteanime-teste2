@@ -11,3 +11,6 @@ ul li{
 ul li:hover{
     scale: 1.02;
 }
+.lista img{
+    max-width: 200px;
+}
